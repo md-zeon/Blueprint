@@ -25,6 +25,7 @@
     "@7ovr": "https://7ovr.com/r/{name}.json",
     "@abui": "https://abui.io/r/{name}.json",
     "@aceternity": "https://ui.aceternity.com/registry/{name}.json",
-    "@cubby-ui": "https://www.cubby-ui.dev/r/{name}.json"
+    "@cubby-ui": "https://www.cubby-ui.dev/r/{name}.json",
+    "@grootstudio": "https://grootstudio.vercel.app/r/{name}.json"
   }
 }
