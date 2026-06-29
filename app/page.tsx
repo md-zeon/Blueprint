@@ -1,10 +1,12 @@
 import Image from "next/image";
 import { ThemeToggler } from "@/components/theme-toggler";
+import { KeyboardDemo } from "@/components/animated/demo/card/keyboard/keyboard-demo";
 
 export default function Home() {
   return (
     <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <ThemeToggler direction="vertical" duration={550} />
+      <KeyboardDemo />
       <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
         <Image
           className="dark:invert"
